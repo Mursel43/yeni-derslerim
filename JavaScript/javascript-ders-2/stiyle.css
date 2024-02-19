@@ -1,0 +1,12 @@
+.popup{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 30%;
+    top: 20%;
+}
