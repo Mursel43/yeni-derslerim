@@ -1,11 +1,24 @@
+var a = "Salam mənim adım \"Məcid\"";
 
-// function reklamiGosder(){
-//     var popup = document.querySelector('.popup');
-//     popup.style.display='flex'
+var p =`Bağda ərik var idi;
+ salam məlyki var idi;
+ bağda ərik qutardı  ;     
+ salam məleyki qutardı!`;
 
-// }
-// setInterval(reklamiGosder,5000);
+ var v=a.length;
 
-const a=5;
-a=20;
-console.log(a) //bu əməliyyat səhf verəcək çünki const dəyiçənini dəyiçmək mümkün deyil!
+console.log(a);
+console.log(p);
+console.log(v);
+
+
+var ad =prompt("Adınızı daxil edin:");
+
+var salamlamaMetini=", Xoş Gəlmisiniz";
+alert(ad+salamlamaMetini);
+console.log(ad+salamlamaMetini);
+
+var g="7" + 6;
+ alert(g);
+
+
